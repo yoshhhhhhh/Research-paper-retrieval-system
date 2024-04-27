@@ -1,0 +1,13 @@
+we are using bm25f algorithm because we are considering multiple fields for score claculation ie title,abstract, content
+
+B is a parameter that controls the degree of length normalization applied to the document-term frequency component of the
+    BM25F formula. Document length normalization is crucial because without it, 
+    longer documents might inherently score higher simply because they contain more words.
+
+
+ K1 of the BM25 scoring function is a parameter that affects how the term frequency (TF) contributes to the document's
+ relevance score
+
+
+ parser query object will look ike this if the user query is neural netwoks
+  Query: (title:neural OR abstract:neural OR content:neural) OR (title:networks OR abstract:networks OR content:networks)
