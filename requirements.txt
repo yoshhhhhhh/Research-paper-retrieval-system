@@ -3,3 +3,4 @@ pdftotext==2.2.2
 Whoosh==2.7.4
 requests~=2.28.1
 lxml~=4.9.1
+streamlit==1.33.0
